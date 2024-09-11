@@ -12,7 +12,7 @@ import './colors.css';
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename='/test-task-react'>
         <Routes />
       </BrowserRouter>
     </Provider>

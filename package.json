@@ -1,10 +1,13 @@
 {
+  "homepage": "https://HaborK1.github.io/test-task-react",
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --open",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
